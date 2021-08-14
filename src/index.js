@@ -1,7 +1,11 @@
+// libraries
 import React from 'react';
 import ReactDOM from 'react-dom';
+// style
 import './index.css';
+// pages
 import App from './pages/App';
+// report
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

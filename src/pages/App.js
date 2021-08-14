@@ -1,10 +1,18 @@
+// Libraries
 import React from "react";
+import { Provider } from "react-redux";
+
+// config
+import { Routes, store } from "../config";
+
+// style
 import "./App.css";
-import { Routes } from "../config";
 
 function App() {
   return (
-    <Routes />
+    <Provider store={store}>
+      <Routes />
+    </Provider>
   );
 }
 

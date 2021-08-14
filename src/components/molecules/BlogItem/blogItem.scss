@@ -14,11 +14,38 @@
   .content-detail {
     padding: 16px;
 
-    .title {
-      margin: 0;
-      font-size: 20px;
-      font-weight: bold;
-      color: #313131;
+    .title-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .title {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #313131;
+      }
+
+      .edit-wrapper {
+        display: flex;
+        align-items: center;
+
+        .edit {
+          font-weight: bold;
+          color: #03a9f4;
+          cursor: pointer;
+          margin: 0;
+          margin-right: 14px;
+        }
+
+        .delete {
+          font-weight: bold;
+          margin: 0;
+          margin-left: 14px;
+          color: #e91e63;
+          cursor: pointer;
+        }
+      }
     }
 
     .author {
